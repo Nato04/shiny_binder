@@ -1,0 +1,13 @@
+{
+  "base_url": "/binder/jupyter/user/nato04-shiny_binder-ktnphzyg/",
+  "hostname": "0.0.0.0",
+  "password": false,
+  "pid": 47,
+  "port": 8888,
+  "root_dir": "/home/jovyan",
+  "secure": false,
+  "sock": "",
+  "token": "NwpFyspQQ_SJmDhR1xsIGg",
+  "url": "http://jupyter-nato04-2dshiny-5fbinder-2dktnphzyg:8888/binder/jupyter/user/nato04-shiny_binder-ktnphzyg/",
+  "version": "1.23.6"
+}

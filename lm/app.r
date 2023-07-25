@@ -8,12 +8,13 @@
 #
 
 library(shiny)
+library(ggplot2)
 
 # Define UI for application that draws a histogram
 ui <- fluidPage(
 
     # Application title
-    titlePanel("Old Faithful Geyser Data"),
+    titlePanel("Linear Modeling - Shiny"),
 
     # Sidebar with a slider input for number of bins 
     sidebarLayout(
@@ -54,15 +55,31 @@ ui <- fluidPage(
             radioButtons("disp", "Display",
                          choices = c(Head = "head",
                                      All = "all"),
-                         selected = "head")
+                         selected = "head"),
+        
+            # Horizontal line ----
+            tags$hr(),
+            
+            #Action Button - Linear Modeling
+            actionButton("lmRun","Linear Model Calculation"),
+
+            # Horizontal line ----
+            tags$hr(),
+            
+            #Action Button - Show LM
+            actionButton("lmShow","View Linear Model")
+            
+        
         ),
 
         # Show a plot of the generated distribution
         mainPanel(
            plotOutput("distPlot"),
            plotOutput("lmPlot"),
-           tableOutput("contents")
-        )
+            tableOutput("contents"),
+            textOutput("lmMod")
+        
+        )   
     )
 )
 
@@ -77,6 +94,10 @@ server <- function(input, output) {
                        sep = input$sep,
                        quote = input$quote)
         return(df)
+    
+        lmTrig <- eventReactive(input$lmRun, {
+            model = lm(formula = dataInput()$x ~ dataInput()$y, data = dataset)  
+    })        
     })
     
     # output$distPlot <- renderPlot({
@@ -93,10 +114,17 @@ server <- function(input, output) {
         plot(dataInput()$x,dataInput()$y)
     })
     
-    output$lmtPlot <- renderPlot({
-        plot(dataInput()$x,dataInput()$y)
-    })
+    output$lmMod <- renderPrint({
+        summary(model)
+    })    
     
+    output$lmPlot <- renderPlot({
+        plot(dataInput()$x,dataInput()$y)
+        observeEvent(input$lmShow, {
+            ggplot()+
+            geom_line(aes(x = dataInput()$x, y = predict(model, newdata = dataset)), colour = 'blue')
+    })                                    
+    })
     
     output$contents <- renderTable({
         
@@ -113,6 +141,16 @@ server <- function(input, output) {
         }
         
     })
+    
+    output$lmMod <- renderPrint({
+        if(is.null(model)) {
+            return(print("Run linear model calculation to see data"))
+        }
+        else{
+            return(summary(model))
+        }
+           
+     })      
         
 }
 

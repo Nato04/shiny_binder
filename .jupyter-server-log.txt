@@ -1,0 +1,62 @@
+Launching jupyter-lab
+[I 2023-07-25 04:13:02.818 ServerApp] jupyter_offlinenotebook | extension was successfully linked.
+[I 2023-07-25 04:13:02.819 ServerApp] jupyter_resource_usage | extension was successfully linked.
+[I 2023-07-25 04:13:02.830 ServerApp] jupyter_server_fileid | extension was successfully linked.
+[I 2023-07-25 04:13:02.830 ServerApp] jupyter_server_proxy | extension was successfully linked.
+[I 2023-07-25 04:13:02.838 ServerApp] jupyter_server_ydoc | extension was successfully linked.
+[W 2023-07-25 04:13:02.841 LabApp] 'base_url' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-07-25 04:13:02.841 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-07-25 04:13:02.841 LabApp] 'trust_xheaders' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-07-25 04:13:02.841 LabApp] 'allow_origin' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-07-25 04:13:02.841 LabApp] 'allow_origin_pat' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2023-07-25 04:13:02.848 ServerApp] jupyterlab | extension was successfully linked.
+[W 2023-07-25 04:13:02.852 NotebookApp] 'extra_template_paths' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2023-07-25 04:13:02.852 NotebookApp] 'jinja_template_vars' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2023-07-25 04:13:02.852 NotebookApp] 'allow_origin' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-07-25 04:13:02.852 NotebookApp] 'shutdown_no_activity_timeout' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-07-25 04:13:02.852 NotebookApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2023-07-25 04:13:02.858 ServerApp] nbclassic | extension was successfully linked.
+[I 2023-07-25 04:13:02.861 ServerApp] Writing Jupyter server cookie secret to /home/jovyan/.local/share/jupyter/runtime/jupyter_cookie_secret
+[I 2023-07-25 04:13:03.300 ServerApp] notebook_shim | extension was successfully linked.
+[I 2023-07-25 04:13:03.351 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2023-07-25 04:13:03.352 ServerApp] jupyter_offlinenotebook | extension was successfully loaded.
+[I 2023-07-25 04:13:03.354 ServerApp] jupyter_resource_usage | extension was successfully loaded.
+[I 2023-07-25 04:13:03.355 FileIdExtension] Configured File ID manager: ArbitraryFileIdManager
+[I 2023-07-25 04:13:03.355 FileIdExtension] ArbitraryFileIdManager : Configured root dir: /home/jovyan
+[I 2023-07-25 04:13:03.355 FileIdExtension] ArbitraryFileIdManager : Configured database path: /home/jovyan/.local/share/jupyter/file_id_manager.db
+[I 2023-07-25 04:13:03.356 FileIdExtension] ArbitraryFileIdManager : Successfully connected to database file.
+[I 2023-07-25 04:13:03.356 FileIdExtension] ArbitraryFileIdManager : Creating File ID tables and indices with journal_mode = DELETE
+[I 2023-07-25 04:13:03.402 ServerApp] jupyter_server_fileid | extension was successfully loaded.
+[I 2023-07-25 04:13:03.424 ServerApp] jupyter_server_proxy | extension was successfully loaded.
+[I 2023-07-25 04:13:03.426 ServerApp] jupyter_server_ydoc | extension was successfully loaded.
+[I 2023-07-25 04:13:03.427 LabApp] JupyterLab extension loaded from /srv/conda/envs/notebook/lib/python3.9/site-packages/jupyterlab
+[I 2023-07-25 04:13:03.427 LabApp] JupyterLab application directory is /srv/conda/envs/notebook/share/jupyter/lab
+[I 2023-07-25 04:13:03.438 ServerApp] jupyterlab | extension was successfully loaded.
+
+  _   _          _      _
+ | | | |_ __  __| |__ _| |_ ___
+ | |_| | '_ \/ _` / _` |  _/ -_)
+  \___/| .__/\__,_\__,_|\__\___|
+       |_|
+                                                                           
+Read the migration plan to Notebook 7 to learn about the new features and the actions to take if you are using extensions.
+
+https://jupyter-notebook.readthedocs.io/en/latest/migrate_to_notebook7.html
+
+Please note that updating to Notebook 7 might break some of your extensions.
+
+[I 2023-07-25 04:13:03.446 ServerApp] nbclassic | extension was successfully loaded.
+[I 2023-07-25 04:13:03.446 ServerApp] Will shut down after 600 seconds with no kernels or terminals.
+[I 2023-07-25 04:13:03.447 ServerApp] Serving notebooks from local directory: /home/jovyan
+[I 2023-07-25 04:13:03.447 ServerApp] Jupyter Server 1.23.6 is running at:
+[I 2023-07-25 04:13:03.447 ServerApp] http://jupyter-nato04-2dshiny-5fbinder-2dktnphzyg:8888/binder/jupyter/user/nato04-shiny_binder-ktnphzyg/lab?token=...
+[I 2023-07-25 04:13:03.447 ServerApp]  or http://127.0.0.1:8888/binder/jupyter/user/nato04-shiny_binder-ktnphzyg/lab?token=...
+[I 2023-07-25 04:13:03.447 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 2023-07-25 04:13:03.453 ServerApp] No web browser found: could not locate runnable browser.
+[I 2023-07-25 04:13:03.994 ServerApp] 302 GET /binder/jupyter/user/nato04-shiny_binder-ktnphzyg/ (10.244.1.80) 1.72ms
+[I 2023-07-25 04:13:04.456 ServerApp] 302 GET /binder/jupyter/user/nato04-shiny_binder-ktnphzyg/?token=[secret] (75.118.81.84) 1.50ms
+[W 2023-07-25 04:13:26.027 ServerApp] 404 GET /binder/jupyter/user/nato04-shiny_binder-ktnphzyg/api/me?1690258405802 (75.118.81.84) 34.33ms referer=https://notebooks.gesis.org/binder/jupyter/user/nato04-shiny_binder-ktnphzyg/lab
+[I 2023-07-25 04:13:30.517 LabApp] Build is up to date
+[I 2023-07-25 04:13:43.054 ServerApp] New terminal with automatic name: 1
+[I 2023-07-25 04:16:33.436 ServerApp] Saving file at /lm/app.r
+[I 2023-07-25 04:16:33.826 ServerApp] Saving file at /lm/app.r
