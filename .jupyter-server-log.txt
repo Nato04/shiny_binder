@@ -225,3 +225,132 @@ Please note that updating to Notebook 7 might break some of your extensions.
 [I 2023-07-26 00:33:22.742 ServerApp] Saving file at /lm/app.r
 [I 2023-07-26 00:33:26.650 ServerApp] Trying to establish websocket connection to ws://localhost:56355/lm/__sockjs__/n=98MVk1XfzrwWTMlsN7/685/pbbf00as/websocket
 [I 2023-07-26 00:33:26.654 ServerApp] Websocket connection established to ws://localhost:56355/lm/__sockjs__/n=98MVk1XfzrwWTMlsN7/685/pbbf00as/websocket
+[I 2023-07-26 00:35:23.080 ServerApp] Saving file at /lm/app.r
+[I 2023-07-26 01:04:07.301 LabApp] 302 GET /binder/jupyter/user/nato04-shiny_binder-gugam4sn/lab (54.156.251.192) 1.88ms
+[I 2023-07-26 01:15:23.626 ServerApp] Saving file at /lm/app.r
+[I 2023-07-26 01:15:53.193 ServerApp] Saving file at /lm/app.r
+[I 2023-07-26 01:16:27.503 LabApp] 302 GET /binder/jupyter/user/nato04-shiny_binder-gugam4sn/lab (75.118.81.84) 2.02ms
+[I 2023-07-26 01:19:42.117 ServerApp] Saving file at /lm/app.r
+[I 2023-07-26 01:19:46.555 ServerApp] Trying to establish websocket connection to ws://localhost:56355/lm/__sockjs__/o=98MVk1XfzrwWTMlsN7/187/nzv5npqx/websocket
+[I 2023-07-26 01:19:46.561 ServerApp] Websocket connection established to ws://localhost:56355/lm/__sockjs__/o=98MVk1XfzrwWTMlsN7/187/nzv5npqx/websocket
+[I 2023-07-26 01:19:47.260 ServerApp] Trying to establish websocket connection to ws://localhost:56355/lm/__sockjs__/n=9w3UxlVYVRTSYoMZIy/066/dmwoig02/websocket
+[I 2023-07-26 01:19:47.266 ServerApp] Websocket connection established to ws://localhost:56355/lm/__sockjs__/n=9w3UxlVYVRTSYoMZIy/066/dmwoig02/websocket
+[I 2023-07-26 01:21:42.460 ServerApp] Saving file at /lm/app.r
+[I 2023-07-26 01:22:09.814 ServerApp] Saving file at /lm/app.r
+[I 2023-07-26 01:23:01.071 ServerApp] Saving file at /lm/app.r
+[I 2023-07-26 01:23:05.971 ServerApp] Trying to establish websocket connection to ws://localhost:56355/lm/__sockjs__/n=QN0hSInPmrJ61tMIEs/949/ceixxgnj/websocket
+[I 2023-07-26 01:23:05.978 ServerApp] Websocket connection established to ws://localhost:56355/lm/__sockjs__/n=QN0hSInPmrJ61tMIEs/949/ceixxgnj/websocket
+[I 2023-07-26 01:23:34.000 ServerApp] Saving file at /lm/app.r
+[I 2023-07-26 01:23:37.338 ServerApp] Trying to establish websocket connection to ws://localhost:56355/lm/__sockjs__/n=ki4eHfvE9XQvpWBrjM/168/i1wlrr4e/websocket
+[I 2023-07-26 01:23:37.344 ServerApp] Websocket connection established to ws://localhost:56355/lm/__sockjs__/n=ki4eHfvE9XQvpWBrjM/168/i1wlrr4e/websocket
+[I 2023-07-26 01:24:27.256 ServerApp] Saving file at /lm/app.r
+[I 2023-07-26 01:24:32.062 ServerApp] Trying to establish websocket connection to ws://localhost:56355/lm/__sockjs__/n=zRGkae6ghYP6OgV1b7/547/hl1oeiup/websocket
+[I 2023-07-26 01:24:32.068 ServerApp] Websocket connection established to ws://localhost:56355/lm/__sockjs__/n=zRGkae6ghYP6OgV1b7/547/hl1oeiup/websocket
+[I 2023-07-26 01:25:33.414 ServerApp] Saving file at /lm/app.r
+[I 2023-07-26 01:25:37.611 ServerApp] Trying to establish websocket connection to ws://localhost:56355/lm/__sockjs__/n=bVnjcyEuxnunMTwJf0/456/j1lekpts/websocket
+[I 2023-07-26 01:25:37.616 ServerApp] Websocket connection established to ws://localhost:56355/lm/__sockjs__/n=bVnjcyEuxnunMTwJf0/456/j1lekpts/websocket
+[I 2023-07-26 01:26:15.152 ServerApp] Saving file at /lm/app.r
+[I 2023-07-26 01:28:15.508 ServerApp] Saving file at /lm/app.r
+[I 2023-07-26 01:28:25.884 ServerApp] Saving file at /lm/app.r
+[I 2023-07-26 01:28:28.911 ServerApp] Saving file at /lm/app.r
+[I 2023-07-26 01:28:34.035 ServerApp] Trying to establish websocket connection to ws://localhost:56355/lm/__sockjs__/n=UP3TzHVQXOcseTQdde/436/4wrpvhyx/websocket
+[I 2023-07-26 01:28:34.040 ServerApp] Websocket connection established to ws://localhost:56355/lm/__sockjs__/n=UP3TzHVQXOcseTQdde/436/4wrpvhyx/websocket
+[I 2023-07-26 01:30:23.598 ServerApp] Saving file at /lm/app.r
+[I 2023-07-26 01:30:33.316 ServerApp] Saving file at /lm/app.r
+[I 2023-07-26 01:30:43.681 ServerApp] Trying to establish websocket connection to ws://localhost:56355/lm/__sockjs__/n=JyJT44vwGq4YFKhPzQ/201/31ncccir/websocket
+[I 2023-07-26 01:30:43.686 ServerApp] Websocket connection established to ws://localhost:56355/lm/__sockjs__/n=JyJT44vwGq4YFKhPzQ/201/31ncccir/websocket
+[I 2023-07-26 01:32:04.404 ServerApp] Saving file at /lm/app.r
+[I 2023-07-26 01:32:10.572 ServerApp] Trying to establish websocket connection to ws://localhost:56355/lm/__sockjs__/n=eSUr0JWIqP5Qs6YJNC/056/yf0mfxsr/websocket
+[I 2023-07-26 01:32:10.578 ServerApp] Websocket connection established to ws://localhost:56355/lm/__sockjs__/n=eSUr0JWIqP5Qs6YJNC/056/yf0mfxsr/websocket
+[I 2023-07-26 01:34:04.764 ServerApp] Saving file at /lm/app.r
+[I 2023-07-26 01:34:10.460 ServerApp] Saving file at /lm/app.r
+[I 2023-07-26 01:36:10.784 ServerApp] Saving file at /lm/app.r
+[I 2023-07-26 01:38:11.117 ServerApp] Saving file at /lm/app.r
+[I 2023-07-26 01:38:11.624 ServerApp] Saving file at /lm/app.r
+[I 2023-07-26 01:38:16.762 ServerApp] Trying to establish websocket connection to ws://localhost:56355/lm/__sockjs__/o=eSUr0JWIqP5Qs6YJNC/936/vsagbeli/websocket
+[I 2023-07-26 01:38:16.772 ServerApp] Websocket connection established to ws://localhost:56355/lm/__sockjs__/o=eSUr0JWIqP5Qs6YJNC/936/vsagbeli/websocket
+[I 2023-07-26 01:38:17.242 ServerApp] Trying to establish websocket connection to ws://localhost:56355/lm/__sockjs__/n=YmyrvwoPu20cMN5D1K/353/xkxzz4ym/websocket
+[I 2023-07-26 01:38:17.247 ServerApp] Websocket connection established to ws://localhost:56355/lm/__sockjs__/n=YmyrvwoPu20cMN5D1K/353/xkxzz4ym/websocket
+[I 2023-07-26 01:39:57.082 ServerApp] Saving file at /lm/app.r
+[I 2023-07-26 01:40:00.013 ServerApp] Saving file at /lm/app.r
+[I 2023-07-26 01:40:03.810 ServerApp] Trying to establish websocket connection to ws://localhost:56355/lm/__sockjs__/n=g3HBNFSjxI50qt3e7H/399/fr1xq1wo/websocket
+[I 2023-07-26 01:40:03.816 ServerApp] Websocket connection established to ws://localhost:56355/lm/__sockjs__/n=g3HBNFSjxI50qt3e7H/399/fr1xq1wo/websocket
+[I 2023-07-26 01:40:57.237 ServerApp] Saving file at /lm/app.r
+[I 2023-07-26 01:42:58.015 ServerApp] Saving file at /lm/app.r
+[I 2023-07-26 01:44:58.367 ServerApp] Saving file at /lm/app.r
+[I 2023-07-26 01:45:42.155 ServerApp] Saving file at /lm/app.r
+[I 2023-07-26 01:45:55.348 ServerApp] Saving file at /lm/app.r
+[I 2023-07-26 01:46:03.734 ServerApp] Trying to establish websocket connection to ws://localhost:56355/lm/__sockjs__/n=ugD5FiYezin0qGOt8B/432/q5lkhepf/websocket
+[I 2023-07-26 01:46:03.740 ServerApp] Websocket connection established to ws://localhost:56355/lm/__sockjs__/n=ugD5FiYezin0qGOt8B/432/q5lkhepf/websocket
+[I 2023-07-26 01:47:06.748 ServerApp] Saving file at /lm/app.r
+[E 2023-07-26 01:47:46.468 ServerApp] {
+      "Host": "notebooks.gesis.org",
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+      "Referer": "https://notebooks.gesis.org/binder/jupyter/user/nato04-shiny_binder-gugam4sn/shiny/",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/115.0"
+    }
+[E 2023-07-26 01:47:46.468 ServerApp] 500 GET /binder/jupyter/user/nato04-shiny_binder-gugam4sn/shiny/lm/ (75.118.81.84) 82.36ms referer=https://notebooks.gesis.org/binder/jupyter/user/nato04-shiny_binder-gugam4sn/shiny/
+[I 2023-07-26 01:48:02.512 ServerApp] Saving file at /lm/app.r
+[I 2023-07-26 01:48:06.442 ServerApp] Trying to establish websocket connection to ws://localhost:56355/lm/__sockjs__/n=qhs7UsCQTs7VGS2dH1/139/coswcjbf/websocket
+[I 2023-07-26 01:48:06.448 ServerApp] Websocket connection established to ws://localhost:56355/lm/__sockjs__/n=qhs7UsCQTs7VGS2dH1/139/coswcjbf/websocket
+[I 2023-07-26 01:48:46.402 ServerApp] Saving file at /lm/app.r
+[I 2023-07-26 01:48:54.389 ServerApp] Trying to establish websocket connection to ws://localhost:56355/lm/__sockjs__/n=5UNuHPDwT8bLYikD4w/408/5lpiypyj/websocket
+[I 2023-07-26 01:48:54.401 ServerApp] Websocket connection established to ws://localhost:56355/lm/__sockjs__/n=5UNuHPDwT8bLYikD4w/408/5lpiypyj/websocket
+[I 2023-07-26 01:50:25.114 ServerApp] Saving file at /lm/app.r
+[I 2023-07-26 01:50:35.681 LabApp] 302 GET /binder/jupyter/user/nato04-shiny_binder-gugam4sn/lab/tree/logs (75.118.81.84) 1.80ms
+[I 2023-07-26 01:50:36.804 ServerApp] Trying to establish websocket connection to ws://localhost:56355/lm/__sockjs__/n=N23KDMZCnfmAIAx16e/751/zflqupsv/websocket
+[I 2023-07-26 01:50:36.811 ServerApp] Websocket connection established to ws://localhost:56355/lm/__sockjs__/n=N23KDMZCnfmAIAx16e/751/zflqupsv/websocket
+[I 2023-07-26 01:51:05.752 ServerApp] Saving file at /lm/app.r
+[W 2023-07-26 01:51:18.395 ServerApp] delete /exmaple
+[E 2023-07-26 01:51:18.399 ServerApp] Uncaught exception DELETE /binder/jupyter/user/nato04-shiny_binder-gugam4sn/api/contents/exmaple?1690336278259 (75.118.81.84)
+    HTTPServerRequest(protocol='http', host='notebooks.gesis.org', method='DELETE', uri='/binder/jupyter/user/nato04-shiny_binder-gugam4sn/api/contents/exmaple?1690336278259', version='HTTP/1.1', remote_ip='75.118.81.84')
+    Traceback (most recent call last):
+      File "/srv/conda/envs/notebook/lib/python3.9/site-packages/send2trash/plat_other.py", line 212, in send2trash
+        trash_move(path_b, dest_trash, topdir)
+      File "/srv/conda/envs/notebook/lib/python3.9/site-packages/send2trash/plat_other.py", line 120, in trash_move
+        os.rename(src, destpath)
+    OSError: [Errno 18] Invalid cross-device link: b'/home/jovyan/exmaple' -> b'/home/jovyan/.local/share/Trash/files/exmaple'
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/srv/conda/envs/notebook/lib/python3.9/shutil.py", line 825, in move
+        os.rename(src, real_dst)
+    OSError: [Errno 18] Invalid cross-device link: b'/home/jovyan/exmaple' -> b'/home/jovyan/.local/share/Trash/files/exmaple 1'
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/srv/conda/envs/notebook/lib/python3.9/site-packages/tornado/web.py", line 1786, in _execute
+        result = await result
+      File "/srv/conda/envs/notebook/lib/python3.9/site-packages/jupyter_server/services/contents/handlers.py", line 275, in delete
+        await ensure_async(cm.delete(path))
+      File "/srv/conda/envs/notebook/lib/python3.9/site-packages/jupyter_server/services/contents/manager.py", line 449, in delete
+        self.delete_file(path)
+      File "/srv/conda/envs/notebook/lib/python3.9/site-packages/jupyter_server/services/contents/filemanager.py", line 542, in delete_file
+        send2trash(os_path)
+      File "/srv/conda/envs/notebook/lib/python3.9/site-packages/send2trash/plat_other.py", line 216, in send2trash
+        trash_move(path_b, HOMETRASH_B, XDG_DATA_HOME, cross_dev=True)
+      File "/srv/conda/envs/notebook/lib/python3.9/site-packages/send2trash/plat_other.py", line 118, in trash_move
+        shutil.move(src, destpath)
+      File "/srv/conda/envs/notebook/lib/python3.9/shutil.py", line 832, in move
+        if _destinsrc(src, dst):
+      File "/srv/conda/envs/notebook/lib/python3.9/shutil.py", line 852, in _destinsrc
+        if not src.endswith(os.path.sep):
+    TypeError: endswith first arg must be bytes or a tuple of bytes, not str
+[W 2023-07-26 01:51:18.491 ServerApp] wrote error: 'Unhandled error'
+[E 2023-07-26 01:51:18.492 ServerApp] {
+      "Host": "notebooks.gesis.org",
+      "Accept": "*/*",
+      "Referer": "https://notebooks.gesis.org/binder/jupyter/user/nato04-shiny_binder-gugam4sn/lab/tree/lm/app.r",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/115.0"
+    }
+[E 2023-07-26 01:51:18.492 ServerApp] 500 DELETE /binder/jupyter/user/nato04-shiny_binder-gugam4sn/api/contents/exmaple?1690336278259 (75.118.81.84) 98.23ms referer=https://notebooks.gesis.org/binder/jupyter/user/nato04-shiny_binder-gugam4sn/lab/tree/lm/app.r
+[I 2023-07-26 01:51:21.401 ServerApp] Saving file at /lm/app.r
+[I 2023-07-26 01:51:35.077 ServerApp] Saving file at /lm/app.r
+[I 2023-07-26 01:51:44.591 ServerApp] Trying to establish websocket connection to ws://localhost:56355/lm/__sockjs__/n=gD6ACJ4G861OkSqGGE/273/vdhljprh/websocket
+[I 2023-07-26 01:51:44.597 ServerApp] Websocket connection established to ws://localhost:56355/lm/__sockjs__/n=gD6ACJ4G861OkSqGGE/273/vdhljprh/websocket
+[I 2023-07-26 01:52:20.410 ServerApp] Saving file at /lm/app.r
+[I 2023-07-26 01:54:08.435 ServerApp] Saving file at /lm/app.r
+[I 2023-07-26 01:54:17.736 ServerApp] Saving file at /lm/app.r
+[I 2023-07-26 01:54:23.735 ServerApp] Saving file at /lm/app.r

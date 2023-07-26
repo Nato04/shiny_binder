@@ -10,13 +10,13 @@
 library(shiny)
 library(ggplot2)
 
-# Define UI for application that draws a histogram
+# Define UI for application that draws a scatterplot/linear model of data
 ui <- fluidPage(
 
     # Application title
     titlePanel("Linear Modeling - Shiny"),
 
-    # Sidebar with a slider input for number of bins 
+    # Sidebar with CSV definitions/options and an action button for the linear model. 
     sidebarLayout(
         sidebarPanel(
 
@@ -61,11 +61,11 @@ ui <- fluidPage(
             tags$hr(),
             
             #Action Button - Linear Modeling
-            actionButton("lmRun","Linear Model Calculation")            
+            actionButton("lmRun","Linear Model Calculation")  
         
         ),
 
-        # Show a plot of the generated distribution
+        # Show a plot of the scatterplot data, linear model, and datainput table
         mainPanel(
            plotOutput("distPlot"),
            plotOutput("lmPlot"),
@@ -75,7 +75,7 @@ ui <- fluidPage(
     )
 )
 
-# Define server logic required to draw a histogram
+# Define server logic for Linear Regression Modeling - Scatterplot, Linear Model graph
 server <- function(input, output) {
 
     dataInput <- reactive({
@@ -88,15 +88,8 @@ server <- function(input, output) {
         return(df)        
     })
     
-    # output$distPlot <- renderPlot({
-    #     # generate bins based on input$bins from ui.R
-    #     x    <- faithful[, 2]
-    #     bins <- seq(min(x), max(x), length.out = input$bins + 1)
-    #     print(bins)
-    #     # draw the histogram with the specified number of bins
-    #     hist(x, breaks = bins, col = 'darkgray', border = 'white')
-    # })
-    # 
+    
+    #Scatter plot with ggplot
     
     output$distPlot <- renderPlot({
          ggplot()+
@@ -109,19 +102,29 @@ server <- function(input, output) {
                      
     })
     
-    output$lmMod <- renderPrint({
-        summary(model)
-    })    
+    #Linear Model Plot, (unsure why the coefficient data is overlapping in the graph at all).
     
     output$lmPlot <- renderPlot({
+        coefs <- coef(model(), 2)
+        intercept <- round(coefs[1], 2)
+        slope <- round(coefs[2], 2)
+        r2 <- round (summary(model())$r.squared, 2)
 
             ggplot()+
                 geom_point(aes(x = dataInput()$x, y = dataInput()$y), 
                        colour = 'red') +
                 geom_line(aes(x = dataInput()$x, y = predict(model(), newdata = dataInput())), 
-                      colour = 'blue')
-            
+                      colour = 'blue') +
+                ggtitle('Y Versus X') +
+                xlab("X") +
+                ylab("Y") +
+                geom_text(aes(x=10, y=11, label = paste("Intercept: ", intercept))) +
+                geom_text(aes(x=10, y=12, label = paste("Slope: ", slope))) +
+                geom_text(aes(x=10, y=13, label = paste("Coefficient: ", coefs)))+
+                geom_text(aes(x=10, y=14, label = paste("R Squared: ", r2)))      
     })                                    
+    
+    #Linear Model calculation with reactive element
     
     model <- eventReactive(input$lmRun, {
         lm(formula = y ~ x, 
