@@ -61,14 +61,7 @@ ui <- fluidPage(
             tags$hr(),
             
             #Action Button - Linear Modeling
-            actionButton("lmRun","Linear Model Calculation"),
-
-            # Horizontal line ----
-            tags$hr(),
-            
-            #Action Button - Show LM
-            actionButton("lmShow","View Linear Model")
-            
+            actionButton("lmRun","Linear Model Calculation")            
         
         ),
 
@@ -76,8 +69,7 @@ ui <- fluidPage(
         mainPanel(
            plotOutput("distPlot"),
            plotOutput("lmPlot"),
-            tableOutput("contents"),
-            textOutput("lmMod")
+           tableOutput("contents")
         
         )   
     )
@@ -93,11 +85,7 @@ server <- function(input, output) {
                        header = input$header,
                        sep = input$sep,
                        quote = input$quote)
-        return(df)
-    
-        lmTrig <- eventReactive(input$lmRun, {
-            model = lm(formula = dataInput()$x ~ dataInput()$y, data = dataset)  
-    })        
+        return(df)        
     })
     
     # output$distPlot <- renderPlot({
@@ -111,7 +99,14 @@ server <- function(input, output) {
     # 
     
     output$distPlot <- renderPlot({
-        plot(dataInput()$x,dataInput()$y)
+         ggplot()+
+                geom_point(aes(x = dataInput()$x, y = dataInput()$y), 
+                       colour = 'red')+
+                ggtitle('Y versus X')+
+                xlab("X") +
+                ylab("Y")
+        
+                     
     })
     
     output$lmMod <- renderPrint({
@@ -119,11 +114,19 @@ server <- function(input, output) {
     })    
     
     output$lmPlot <- renderPlot({
-        plot(dataInput()$x,dataInput()$y)
-        observeEvent(input$lmShow, {
+
             ggplot()+
-            geom_line(aes(x = dataInput()$x, y = predict(model, newdata = dataset)), colour = 'blue')
+                geom_point(aes(x = dataInput()$x, y = dataInput()$y), 
+                       colour = 'red') +
+                geom_line(aes(x = dataInput()$x, y = predict(model(), newdata = dataInput())), 
+                      colour = 'blue')
+            
     })                                    
+    
+    model <- eventReactive(input$lmRun, {
+        lm(formula = y ~ x, 
+         data = dataInput())
+        
     })
     
     output$contents <- renderTable({
@@ -138,16 +141,6 @@ server <- function(input, output) {
         }
         else {
             return(dataInput())
-        }
-        
-    })
-    
-    output$lmMod <- renderPrint({
-        if(is.null(model)) {
-            return(print("Run linear model calculation to see data"))
-        }
-        else{
-            return(summary(model))
         }
            
      })      

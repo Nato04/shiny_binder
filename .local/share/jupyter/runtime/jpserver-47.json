@@ -1,5 +1,5 @@
 {
-  "base_url": "/binder/jupyter/user/nato04-shiny_binder-ktnphzyg/",
+  "base_url": "/binder/jupyter/user/nato04-shiny_binder-gugam4sn/",
   "hostname": "0.0.0.0",
   "password": false,
   "pid": 47,
@@ -7,7 +7,7 @@
   "root_dir": "/home/jovyan",
   "secure": false,
   "sock": "",
-  "token": "NwpFyspQQ_SJmDhR1xsIGg",
-  "url": "http://jupyter-nato04-2dshiny-5fbinder-2dktnphzyg:8888/binder/jupyter/user/nato04-shiny_binder-ktnphzyg/",
+  "token": "vM1OejW-S1OtGXIlzP7Dxw",
+  "url": "http://jupyter-nato04-2dshiny-5fbinder-2dgugam4sn:8888/binder/jupyter/user/nato04-shiny_binder-gugam4sn/",
   "version": "1.23.6"
 }

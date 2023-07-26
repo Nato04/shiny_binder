@@ -60,3 +60,168 @@ Please note that updating to Notebook 7 might break some of your extensions.
 [I 2023-07-25 04:13:43.054 ServerApp] New terminal with automatic name: 1
 [I 2023-07-25 04:16:33.436 ServerApp] Saving file at /lm/app.r
 [I 2023-07-25 04:16:33.826 ServerApp] Saving file at /lm/app.r
+Launching jupyter-lab
+[I 2023-07-26 00:07:36.243 ServerApp] jupyter_offlinenotebook | extension was successfully linked.
+[I 2023-07-26 00:07:36.243 ServerApp] jupyter_resource_usage | extension was successfully linked.
+[I 2023-07-26 00:07:36.251 ServerApp] jupyter_server_fileid | extension was successfully linked.
+[I 2023-07-26 00:07:36.251 ServerApp] jupyter_server_proxy | extension was successfully linked.
+[I 2023-07-26 00:07:36.259 ServerApp] jupyter_server_ydoc | extension was successfully linked.
+[W 2023-07-26 00:07:36.262 LabApp] 'base_url' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-07-26 00:07:36.262 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-07-26 00:07:36.262 LabApp] 'trust_xheaders' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-07-26 00:07:36.262 LabApp] 'allow_origin' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-07-26 00:07:36.262 LabApp] 'allow_origin_pat' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2023-07-26 00:07:36.269 ServerApp] jupyterlab | extension was successfully linked.
+[W 2023-07-26 00:07:36.273 NotebookApp] 'extra_template_paths' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2023-07-26 00:07:36.273 NotebookApp] 'jinja_template_vars' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2023-07-26 00:07:36.273 NotebookApp] 'allow_origin' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-07-26 00:07:36.273 NotebookApp] 'shutdown_no_activity_timeout' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-07-26 00:07:36.273 NotebookApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2023-07-26 00:07:36.279 ServerApp] nbclassic | extension was successfully linked.
+[I 2023-07-26 00:07:37.137 ServerApp] notebook_shim | extension was successfully linked.
+[I 2023-07-26 00:07:37.190 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2023-07-26 00:07:37.191 ServerApp] jupyter_offlinenotebook | extension was successfully loaded.
+[I 2023-07-26 00:07:37.192 ServerApp] jupyter_resource_usage | extension was successfully loaded.
+[I 2023-07-26 00:07:37.193 FileIdExtension] Configured File ID manager: ArbitraryFileIdManager
+[I 2023-07-26 00:07:37.193 FileIdExtension] ArbitraryFileIdManager : Configured root dir: /home/jovyan
+[I 2023-07-26 00:07:37.193 FileIdExtension] ArbitraryFileIdManager : Configured database path: /home/jovyan/.local/share/jupyter/file_id_manager.db
+[I 2023-07-26 00:07:37.216 FileIdExtension] ArbitraryFileIdManager : Successfully connected to database file.
+[I 2023-07-26 00:07:37.216 FileIdExtension] ArbitraryFileIdManager : Creating File ID tables and indices with journal_mode = DELETE
+[I 2023-07-26 00:07:37.217 ServerApp] jupyter_server_fileid | extension was successfully loaded.
+[I 2023-07-26 00:07:37.244 ServerApp] jupyter_server_proxy | extension was successfully loaded.
+[I 2023-07-26 00:07:37.245 ServerApp] jupyter_server_ydoc | extension was successfully loaded.
+[I 2023-07-26 00:07:37.246 LabApp] JupyterLab extension loaded from /srv/conda/envs/notebook/lib/python3.9/site-packages/jupyterlab
+[I 2023-07-26 00:07:37.247 LabApp] JupyterLab application directory is /srv/conda/envs/notebook/share/jupyter/lab
+[I 2023-07-26 00:07:37.257 ServerApp] jupyterlab | extension was successfully loaded.
+
+  _   _          _      _
+ | | | |_ __  __| |__ _| |_ ___
+ | |_| | '_ \/ _` / _` |  _/ -_)
+  \___/| .__/\__,_\__,_|\__\___|
+       |_|
+                                                                           
+Read the migration plan to Notebook 7 to learn about the new features and the actions to take if you are using extensions.
+
+https://jupyter-notebook.readthedocs.io/en/latest/migrate_to_notebook7.html
+
+Please note that updating to Notebook 7 might break some of your extensions.
+
+[I 2023-07-26 00:07:37.266 ServerApp] nbclassic | extension was successfully loaded.
+[I 2023-07-26 00:07:37.266 ServerApp] Will shut down after 600 seconds with no kernels or terminals.
+[I 2023-07-26 00:07:37.267 ServerApp] Serving notebooks from local directory: /home/jovyan
+[I 2023-07-26 00:07:37.267 ServerApp] Jupyter Server 1.23.6 is running at:
+[I 2023-07-26 00:07:37.267 ServerApp] http://jupyter-nato04-2dshiny-5fbinder-2dgugam4sn:8888/binder/jupyter/user/nato04-shiny_binder-gugam4sn/lab?token=...
+[I 2023-07-26 00:07:37.267 ServerApp]  or http://127.0.0.1:8888/binder/jupyter/user/nato04-shiny_binder-gugam4sn/lab?token=...
+[I 2023-07-26 00:07:37.267 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 2023-07-26 00:07:37.273 ServerApp] No web browser found: could not locate runnable browser.
+[I 2023-07-26 00:07:38.035 ServerApp] 302 GET /binder/jupyter/user/nato04-shiny_binder-gugam4sn/ (10.244.1.80) 1.75ms
+[I 2023-07-26 00:07:38.437 ServerApp] 302 GET /binder/jupyter/user/nato04-shiny_binder-gugam4sn/?token=[secret] (75.118.81.84) 1.49ms
+[W 2023-07-26 00:08:12.163 ServerApp] 404 GET /binder/jupyter/user/nato04-shiny_binder-gugam4sn/api/me?1690330091888 (75.118.81.84) 77.42ms referer=https://notebooks.gesis.org/binder/jupyter/user/nato04-shiny_binder-gugam4sn/lab
+[I 2023-07-26 00:08:19.612 ServerApp] New terminal with automatic name: 1
+[I 2023-07-26 00:08:19.617 LabApp] Build is up to date
+[I 2023-07-26 00:09:31.677 ServerApp] Saving file at /lm/app.r
+[2023-07-26T00:09:37.451] [INFO] shiny-server - Shiny Server v1.5.17.973 (Node.js v12.22.6)
+[2023-07-26T00:09:37.485] [INFO] shiny-server - Using config file "/tmp/tmppoq2c5q_"
+[2023-07-26T00:09:37.701] [INFO] shiny-server - Starting listener on http://[::]:56355
+[2023-07-26T00:09:40.789] [INFO] shiny-server - Created bookmark state directory: /home/jovyan/bookmarks
+[2023-07-26T00:09:40.790] [INFO] shiny-server - Created user bookmark state directory: /home/jovyan/bookmarks/jovyan
+[I 2023-07-26 00:09:49.200 ServerApp] Trying to establish websocket connection to ws://localhost:56355/lm/__sockjs__/n=WkaR9UWcZWY5PVZGGA/476/gqdx1ise/websocket
+[I 2023-07-26 00:09:49.215 ServerApp] Websocket connection established to ws://localhost:56355/lm/__sockjs__/n=WkaR9UWcZWY5PVZGGA/476/gqdx1ise/websocket
+[I 2023-07-26 00:11:00.609 ServerApp] Saving file at /lm/app.r
+[I 2023-07-26 00:11:05.688 ServerApp] Trying to establish websocket connection to ws://localhost:56355/lm/__sockjs__/o=WkaR9UWcZWY5PVZGGA/763/rcdcz0ry/websocket
+[I 2023-07-26 00:11:05.696 ServerApp] Websocket connection established to ws://localhost:56355/lm/__sockjs__/o=WkaR9UWcZWY5PVZGGA/763/rcdcz0ry/websocket
+[I 2023-07-26 00:11:06.176 ServerApp] Trying to establish websocket connection to ws://localhost:56355/lm/__sockjs__/n=Z7QHi9euykHlZU04EW/755/1fke0s1p/websocket
+[I 2023-07-26 00:11:06.182 ServerApp] Websocket connection established to ws://localhost:56355/lm/__sockjs__/n=Z7QHi9euykHlZU04EW/755/1fke0s1p/websocket
+[I 2023-07-26 00:11:21.410 ServerApp] Saving file at /lm/app.r
+[I 2023-07-26 00:11:25.072 ServerApp] Trying to establish websocket connection to ws://localhost:56355/lm/__sockjs__/n=c6O34yTBdYQMkpna2K/095/0ytrgo4p/websocket
+[I 2023-07-26 00:11:25.092 ServerApp] Websocket connection established to ws://localhost:56355/lm/__sockjs__/n=c6O34yTBdYQMkpna2K/095/0ytrgo4p/websocket
+[I 2023-07-26 00:11:43.577 ServerApp] Saving file at /lm/app.r
+[I 2023-07-26 00:12:54.751 ServerApp] Saving file at /lm/app.r
+[I 2023-07-26 00:14:07.805 ServerApp] Saving file at /lm/app.r
+[I 2023-07-26 00:14:15.939 ServerApp] Saving file at /lm/app.r
+[E 2023-07-26 00:14:18.786 ServerApp] {
+      "Host": "notebooks.gesis.org",
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+      "Referer": "https://notebooks.gesis.org/binder/jupyter/user/nato04-shiny_binder-gugam4sn/shiny/",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/115.0"
+    }
+[E 2023-07-26 00:14:18.786 ServerApp] 500 GET /binder/jupyter/user/nato04-shiny_binder-gugam4sn/shiny/lm/ (75.118.81.84) 152.44ms referer=https://notebooks.gesis.org/binder/jupyter/user/nato04-shiny_binder-gugam4sn/shiny/
+[I 2023-07-26 00:14:19.245 ServerApp] Trying to establish websocket connection to ws://localhost:56355/lm/__sockjs__/o=c6O34yTBdYQMkpna2K/188/4opmuf42/websocket
+[I 2023-07-26 00:14:19.251 ServerApp] Websocket connection established to ws://localhost:56355/lm/__sockjs__/o=c6O34yTBdYQMkpna2K/188/4opmuf42/websocket
+[I 2023-07-26 00:15:15.373 ServerApp] Saving file at /lm/app.r
+[I 2023-07-26 00:15:24.523 ServerApp] Trying to establish websocket connection to ws://localhost:56355/lm/__sockjs__/n=Vi02UnetkvJan5cT6g/640/dsaceetv/websocket
+[I 2023-07-26 00:15:24.529 ServerApp] Websocket connection established to ws://localhost:56355/lm/__sockjs__/n=Vi02UnetkvJan5cT6g/640/dsaceetv/websocket
+[I 2023-07-26 00:16:37.702 ServerApp] Saving file at /lm/app.r
+[I 2023-07-26 00:16:41.539 ServerApp] Trying to establish websocket connection to ws://localhost:56355/lm/__sockjs__/n=CYrvbEI3KNnbqqSnQH/616/dq30z3oe/websocket
+[I 2023-07-26 00:16:41.544 ServerApp] Websocket connection established to ws://localhost:56355/lm/__sockjs__/n=CYrvbEI3KNnbqqSnQH/616/dq30z3oe/websocket
+[I 2023-07-26 00:18:18.798 ServerApp] Saving file at /lm/app.r
+[I 2023-07-26 00:18:22.329 ServerApp] Trying to establish websocket connection to ws://localhost:56355/lm/__sockjs__/n=gkw57r26kXiiN1Zhov/195/t2z4l5xb/websocket
+[I 2023-07-26 00:18:22.336 ServerApp] Websocket connection established to ws://localhost:56355/lm/__sockjs__/n=gkw57r26kXiiN1Zhov/195/t2z4l5xb/websocket
+[I 2023-07-26 00:20:19.148 ServerApp] Saving file at /lm/app.r
+[I 2023-07-26 00:22:19.487 ServerApp] Saving file at /lm/app.r
+[I 2023-07-26 00:22:40.178 ServerApp] Saving file at /lm/app.r
+[I 2023-07-26 00:22:49.829 ServerApp] Trying to establish websocket connection to ws://localhost:56355/lm/__sockjs__/n=EOkiopLCZieN8rQmjN/536/hrk4xkkn/websocket
+[I 2023-07-26 00:22:49.833 ServerApp] Websocket connection established to ws://localhost:56355/lm/__sockjs__/n=EOkiopLCZieN8rQmjN/536/hrk4xkkn/websocket
+[I 2023-07-26 00:24:15.645 ServerApp] Saving file at /lm/app.r
+[I 2023-07-26 00:24:20.317 ServerApp] Trying to establish websocket connection to ws://localhost:56355/lm/__sockjs__/n=H8FU9it2qCd3gOu9ly/841/h53x3h5p/websocket
+[I 2023-07-26 00:24:20.323 ServerApp] Websocket connection established to ws://localhost:56355/lm/__sockjs__/n=H8FU9it2qCd3gOu9ly/841/h53x3h5p/websocket
+[I 2023-07-26 00:28:11.054 ServerApp] Saving file at /lm/app.r
+[I 2023-07-26 00:28:15.885 ServerApp] Trying to establish websocket connection to ws://localhost:56355/lm/__sockjs__/n=Y0sLwWTIILBRlPslt9/478/x3v2gz25/websocket
+[I 2023-07-26 00:28:15.891 ServerApp] Websocket connection established to ws://localhost:56355/lm/__sockjs__/n=Y0sLwWTIILBRlPslt9/478/x3v2gz25/websocket
+[I 2023-07-26 00:28:38.428 ServerApp] Saving file at /lm/app.r
+[E 2023-07-26 00:28:41.555 ServerApp] {
+      "Host": "notebooks.gesis.org",
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+      "Referer": "https://notebooks.gesis.org/binder/jupyter/user/nato04-shiny_binder-gugam4sn/shiny/",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/115.0"
+    }
+[E 2023-07-26 00:28:41.555 ServerApp] 500 GET /binder/jupyter/user/nato04-shiny_binder-gugam4sn/shiny/lm/ (75.118.81.84) 84.40ms referer=https://notebooks.gesis.org/binder/jupyter/user/nato04-shiny_binder-gugam4sn/shiny/
+[I 2023-07-26 00:28:47.747 ServerApp] Saving file at /lm/app.r
+[E 2023-07-26 00:28:52.456 ServerApp] {
+      "Host": "notebooks.gesis.org",
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+      "Referer": "https://notebooks.gesis.org/binder/jupyter/user/nato04-shiny_binder-gugam4sn/shiny/",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/115.0"
+    }
+[E 2023-07-26 00:28:52.456 ServerApp] 500 GET /binder/jupyter/user/nato04-shiny_binder-gugam4sn/shiny/lm/ (75.118.81.84) 82.18ms referer=https://notebooks.gesis.org/binder/jupyter/user/nato04-shiny_binder-gugam4sn/shiny/
+[I 2023-07-26 00:28:58.323 ServerApp] Saving file at /lm/app.r
+[E 2023-07-26 00:29:01.161 ServerApp] {
+      "Host": "notebooks.gesis.org",
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+      "Referer": "https://notebooks.gesis.org/binder/jupyter/user/nato04-shiny_binder-gugam4sn/shiny/",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/115.0"
+    }
+[E 2023-07-26 00:29:01.161 ServerApp] 500 GET /binder/jupyter/user/nato04-shiny_binder-gugam4sn/shiny/lm/ (75.118.81.84) 73.42ms referer=https://notebooks.gesis.org/binder/jupyter/user/nato04-shiny_binder-gugam4sn/shiny/
+[I 2023-07-26 00:29:04.146 ServerApp] Saving file at /lm/app.r
+[2023-07-26T00:29:09.239] [INFO] shiny-server - Error getting worker: Error: The application exited during initialization.
+[E 2023-07-26 00:29:09.294 ServerApp] {
+      "Host": "notebooks.gesis.org",
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+      "Referer": "https://notebooks.gesis.org/binder/jupyter/user/nato04-shiny_binder-gugam4sn/shiny/",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/115.0"
+    }
+[E 2023-07-26 00:29:09.295 ServerApp] 500 GET /binder/jupyter/user/nato04-shiny_binder-gugam4sn/shiny/lm/ (75.118.81.84) 2330.95ms referer=https://notebooks.gesis.org/binder/jupyter/user/nato04-shiny_binder-gugam4sn/shiny/
+[2023-07-26T00:30:11.809] [INFO] shiny-server - Error getting worker: Error: The application exited during initialization.
+[E 2023-07-26 00:30:11.834 ServerApp] {
+      "Host": "notebooks.gesis.org",
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+      "Referer": "https://notebooks.gesis.org/binder/jupyter/user/nato04-shiny_binder-gugam4sn/shiny/",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/115.0"
+    }
+[E 2023-07-26 00:30:11.834 ServerApp] 500 GET /binder/jupyter/user/nato04-shiny_binder-gugam4sn/shiny/lm/ (75.118.81.84) 2303.24ms referer=https://notebooks.gesis.org/binder/jupyter/user/nato04-shiny_binder-gugam4sn/shiny/
+[I 2023-07-26 00:30:37.720 ServerApp] Saving file at /lm/app.r
+[2023-07-26T00:30:42.770] [INFO] shiny-server - Error getting worker: Error: The application exited during initialization.
+[E 2023-07-26 00:30:42.812 ServerApp] {
+      "Host": "notebooks.gesis.org",
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+      "Referer": "https://notebooks.gesis.org/binder/jupyter/user/nato04-shiny_binder-gugam4sn/shiny/",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/115.0"
+    }
+[E 2023-07-26 00:30:42.812 ServerApp] 500 GET /binder/jupyter/user/nato04-shiny_binder-gugam4sn/shiny/lm/ (75.118.81.84) 2326.08ms referer=https://notebooks.gesis.org/binder/jupyter/user/nato04-shiny_binder-gugam4sn/shiny/
+[I 2023-07-26 00:30:47.499 ServerApp] Saving file at /lm/app.r
+[I 2023-07-26 00:30:56.648 ServerApp] Trying to establish websocket connection to ws://localhost:56355/lm/__sockjs__/n=QKxnfZuTfw7S8E9Hwr/677/lve3c5ma/websocket
+[I 2023-07-26 00:30:56.653 ServerApp] Websocket connection established to ws://localhost:56355/lm/__sockjs__/n=QKxnfZuTfw7S8E9Hwr/677/lve3c5ma/websocket
+[I 2023-07-26 00:33:08.746 ServerApp] Saving file at /lm/app.r
+[I 2023-07-26 00:33:22.742 ServerApp] Saving file at /lm/app.r
+[I 2023-07-26 00:33:26.650 ServerApp] Trying to establish websocket connection to ws://localhost:56355/lm/__sockjs__/n=98MVk1XfzrwWTMlsN7/685/pbbf00as/websocket
+[I 2023-07-26 00:33:26.654 ServerApp] Websocket connection established to ws://localhost:56355/lm/__sockjs__/n=98MVk1XfzrwWTMlsN7/685/pbbf00as/websocket
